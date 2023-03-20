@@ -4,19 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93b8dbbf-9aa1-4ce7-9f8c-d5f4e32a7ac6" name="Changes" comment="user scheema">
-      <change afterPath="$PROJECT_DIR$/controllers/auth_controller.js" afterDir="false" />
+    <list default="true" id="93b8dbbf-9aa1-4ce7-9f8c-d5f4e32a7ac6" name="Changes" comment="add body parser and create user">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/HISTORY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/lib/types/json.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/lib/types/json.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/raw-body/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/raw-body/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/auth_controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/auth_controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/raw-body/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/raw-body/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/raw-body/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/raw-body/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/raw-body/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/raw-body/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +88,7 @@
       <workItem from="1679252279402" duration="2193000" />
       <workItem from="1679256037780" duration="3071000" />
       <workItem from="1679264204657" duration="4267000" />
-      <workItem from="1679269336681" duration="8719000" />
+      <workItem from="1679269336681" duration="13360000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1679256346359</created>
@@ -116,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679267830703</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add body parser and create user">
+      <created>1679307651407</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679307651407</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +131,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="connect to mdb" />
     <MESSAGE value="user scheema" />
-    <option name="LAST_COMMIT_MESSAGE" value="user scheema" />
+    <MESSAGE value="add body parser and create user" />
+    <option name="LAST_COMMIT_MESSAGE" value="add body parser and create user" />
   </component>
 </project>

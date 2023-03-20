@@ -7,7 +7,7 @@ var User = new scheema({
         type: String,
         required: [true, 'name field is required']
     },
-    lastName: {
+    last_name: {
         type: String,
         required: [true, 'last name field is required']
     },
