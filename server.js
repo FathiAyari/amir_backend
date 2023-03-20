@@ -26,7 +26,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());*/
 /*app.use("/", router);*/
 app.get('/home',function (req, res){
-    res.json('welcome to amir backend apis')
+    res.json('welcome to amir backend apis here')
 });
 
 app.listen(PORT, function (err) {
