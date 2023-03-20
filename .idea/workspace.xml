@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93b8dbbf-9aa1-4ce7-9f8c-d5f4e32a7ac6" name="Changes" comment="run project on vercel">
+    <list default="true" id="93b8dbbf-9aa1-4ce7-9f8c-d5f4e32a7ac6" name="Changes" comment="reset vercel settings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/auth_controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/auth_controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +120,7 @@
       <workItem from="1679256037780" duration="3071000" />
       <workItem from="1679264204657" duration="4267000" />
       <workItem from="1679269336681" duration="16264000" />
-      <workItem from="1679338877237" duration="5841000" />
+      <workItem from="1679338877237" duration="6720000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1679256346359</created>
@@ -245,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679344239079</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="run project on vercel 1">
+      <created>1679344831352</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1679344831352</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,6 +285,8 @@
     <MESSAGE value="add welcome api endpoint" />
     <MESSAGE value="vercel config" />
     <MESSAGE value="run project on vercel" />
-    <option name="LAST_COMMIT_MESSAGE" value="run project on vercel" />
+    <MESSAGE value="run project on vercel 1" />
+    <MESSAGE value="reset vercel settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="reset vercel settings" />
   </component>
 </project>
