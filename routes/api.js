@@ -10,7 +10,7 @@ const authController=require('../controllers/auth_controller')
 
 router.post('/register',authController.register);
 router.post('/login',authController.login);
-router.post('/',function (req, res){
+router.get('/',function (req, res){
     res.json('welcome to amir backend apis')
 });
 
