@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93b8dbbf-9aa1-4ce7-9f8c-d5f4e32a7ac6" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/routes/api.js" afterDir="false" />
+    <list default="true" id="93b8dbbf-9aa1-4ce7-9f8c-d5f4e32a7ac6" name="Changes" comment="user scheema">
+      <change afterPath="$PROJECT_DIR$/controllers/auth_controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/lib/types/json.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/lib/types/json.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/raw-body/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/raw-body/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTTP Request" />
       </list>
     </option>
   </component>
@@ -38,22 +45,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Fathi Ayari/Desktop/Freelance Projects/Asma/amir_backend&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Fathi Ayari/Desktop/Freelance Projects/Asma/amir_backend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "ts.external.directory.path": "C:\\Users\\Fathi Ayari\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\223.8617.44\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="npm.serve">
+    <configuration name="rest-api | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -67,6 +78,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.serve" />
+        <item itemvalue="HTTP Request.rest-api | #1" />
       </list>
     </recent_temporary>
   </component>
@@ -80,7 +92,8 @@
       <updated>1679252278137</updated>
       <workItem from="1679252279402" duration="2193000" />
       <workItem from="1679256037780" duration="3071000" />
-      <workItem from="1679264204657" duration="801000" />
+      <workItem from="1679264204657" duration="4267000" />
+      <workItem from="1679269336681" duration="8719000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1679256346359</created>
@@ -89,7 +102,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679256346359</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="connect to mdb">
+      <created>1679265103303</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679265103303</updated>
+    </task>
+    <task id="LOCAL-00003" summary="user scheema">
+      <created>1679267830703</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679267830703</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +127,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="connect to mdb" />
+    <MESSAGE value="user scheema" />
+    <option name="LAST_COMMIT_MESSAGE" value="user scheema" />
   </component>
 </project>
