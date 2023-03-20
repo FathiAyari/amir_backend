@@ -3,34 +3,38 @@ const becryp = require('bcryptjs')
 const jwt = require('jsonwebtoken')
 require('dotenv').config();
 const register = async (req, res, next) => {
-    becryp.hash(req.body.password, 10, function (err, hashedPass) {
-        if (err) {
-            res.json({error: err});
-        }
-        let user = new User({
-            name: req.body.name,
-            last_name: req.body.last_name,
-            email: req.body.email,
-            role: req.body.role,
-            password: hashedPass,
-        })
-        user.save().then(user => {
-            const secretKey = process.env.SecretKey;
-            let token = jwt.sign({email: user.email}, secretKey)
-            res.json({
-                user: {
-                    name: user.name,
-                    last_name: user.last_name,
-                    email: user.email,
-                    role: user.role,
-                    token: token
-
+    const email = req.body.email;
+    User.findOne({email}).then(user => {
+        if (!user) {
+            becryp.hash(req.body.password, 10, function (err, hashedPass) {
+                if (err) {
+                    res.json({error: err});
                 }
-            })
-        }).catch(error => {
-            res.json({error: error})
-        })
+                let user = new User({
+                    name: req.body.name,
+                    last_name: req.body.last_name,
+                    email: req.body.email,
+                    role: req.body.role,
+                    password: hashedPass,
+                })
+                user.save().then(user => {
+                    const secretKey = process.env.SecretKey;
+                    let token = jwt.sign({email: user.email}, secretKey)
+                    res.json({
+                        user: {
+                            name: user.name, last_name: user.last_name, email: user.email, role: user.role, token: token
 
+                        }
+                    })
+                }).catch(error => {
+                    res.json({error: error})
+                })
+
+            })
+        } else {
+            res.json({message: 'this email is already used'})
+
+        }
     })
 
 }
@@ -49,11 +53,7 @@ const login = async (req, res, next) => {
                     let token = jwt.sign({email: user.email}, secretKey)
                     res.json({
                         user: {
-                            name: user.name,
-                            last_name: user.last_name,
-                            email: user.email,
-                            role: user.role,
-                            token: token
+                            name: user.name, last_name: user.last_name, email: user.email, role: user.role, token: token
 
                         }
                     })
