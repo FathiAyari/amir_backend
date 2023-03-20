@@ -32,7 +32,7 @@ const register = async (req, res, next) => {
 
             })
         } else {
-            res.json({message: 'this email is already used'})
+            res.json({message: 'this email is already used '})
 
         }
     })
