@@ -29,7 +29,7 @@ app.get('/home',function (req, res){
     res.json('welcome to amir backend apis here')
 });
 
-app.listen(PORT, function (err) {
+app.listen(8000, function (err) {
     if (err) console.log("Error in server setup")
-    console.log("Server listening on Port", PORT);
+    console.log("Server listening on Port", 8000);
 })

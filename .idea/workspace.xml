@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93b8dbbf-9aa1-4ce7-9f8c-d5f4e32a7ac6" name="Changes" comment="vercel config">
+    <list default="true" id="93b8dbbf-9aa1-4ce7-9f8c-d5f4e32a7ac6" name="Changes" comment="run project on vercel">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vercel.json" beforeDir="false" afterPath="$PROJECT_DIR$/vercel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +117,7 @@
       <workItem from="1679256037780" duration="3071000" />
       <workItem from="1679264204657" duration="4267000" />
       <workItem from="1679269336681" duration="16264000" />
-      <workItem from="1679338877237" duration="4364000" />
+      <workItem from="1679338877237" duration="5841000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1679256346359</created>
@@ -217,7 +217,35 @@
       <option name="project" value="LOCAL" />
       <updated>1679342999125</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="vercel config">
+      <created>1679343299489</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1679343299489</updated>
+    </task>
+    <task id="LOCAL-00016" summary="vercel config">
+      <created>1679343653035</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1679343653035</updated>
+    </task>
+    <task id="LOCAL-00017" summary="vercel config">
+      <created>1679344157922</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1679344157922</updated>
+    </task>
+    <task id="LOCAL-00018" summary="run project on vercel">
+      <created>1679344239079</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1679344239079</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,6 +274,7 @@
     <MESSAGE value="used email registration check" />
     <MESSAGE value="add welcome api endpoint" />
     <MESSAGE value="vercel config" />
-    <option name="LAST_COMMIT_MESSAGE" value="vercel config" />
+    <MESSAGE value="run project on vercel" />
+    <option name="LAST_COMMIT_MESSAGE" value="run project on vercel" />
   </component>
 </project>
