@@ -17,11 +17,15 @@ var User = new scheema({
     },
     password: {
         type: String,
-        required: [true, 'password name field is required']
+
     },
     role: {
         type: String,
         required: [true, 'role name field is required']
+    },
+    nick_name: {
+        type: String,
+
     },
 
 });
