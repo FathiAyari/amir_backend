@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93b8dbbf-9aa1-4ce7-9f8c-d5f4e32a7ac6" name="Changes" comment="reset vercel settings">
+    <list default="true" id="93b8dbbf-9aa1-4ce7-9f8c-d5f4e32a7ac6" name="Changes" comment="social media authentication">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/auth_controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/auth_controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +124,8 @@
       <workItem from="1679439627072" duration="194000" />
       <workItem from="1679954843011" duration="1730000" />
       <workItem from="1680050320766" duration="358000" />
-      <workItem from="1680291480937" duration="1919000" />
+      <workItem from="1680291480937" duration="2635000" />
+      <workItem from="1680614532570" duration="3333000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1679256346359</created>
@@ -270,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679349596193</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="social media authentication">
+      <created>1680293517764</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1680293517764</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,6 +306,7 @@
     <MESSAGE value="run project on vercel" />
     <MESSAGE value="run project on vercel 1" />
     <MESSAGE value="reset vercel settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="reset vercel settings" />
+    <MESSAGE value="social media authentication" />
+    <option name="LAST_COMMIT_MESSAGE" value="social media authentication" />
   </component>
 </project>
